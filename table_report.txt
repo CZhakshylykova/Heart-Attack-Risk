@@ -1,0 +1,86 @@
+Table Report for Heart Failure Dataset
+========================================
+
+Number of Rows: 299
+Number of Columns: 13
+
+Column Names:
+- age
+- anaemia
+- creatinine_phosphokinase
+- diabetes
+- ejection_fraction
+- high_blood_pressure
+- platelets
+- serum_creatinine
+- serum_sodium
+- sex
+- smoking
+- time
+- DEATH_EVENT
+
+Data Types:
+age                          float64
+anaemia                     category
+creatinine_phosphokinase       int64
+diabetes                    category
+ejection_fraction              int64
+high_blood_pressure         category
+platelets                    float64
+serum_creatinine             float64
+serum_sodium                   int64
+sex                         category
+smoking                     category
+time                           int64
+DEATH_EVENT                 category
+
+Missing Values:
+There are no missing values in the dataset.
+
+
+Duplicate Rows:
+There are no duplicate rows in the dataset.
+
+
+Outliers Report:
+There are 37 outliers in the datasets when I use the threshold of 3.
+
+
+Death Event Distribution:
+DEATH_EVENT
+0    203
+1     96There is uneven distribution of the death event in the dataset.
+
+
+Death Event Distribution:
+DEATH_EVENT
+0    203
+1     96
+There is uneven distribution of the death event in the dataset.
+
+
+Death Event Distribution:
+DEATH_EVENT
+0    203
+1     96
+There is uneven distribution of the death event in the dataset.
+
+
+Death Event Distribution:
+
+{death_event_distribution.to_string()}
+There is uneven distribution of the death event in the dataset.
+
+Death Event Distribution:
+
+DEATH_EVENT
+0    203
+1     96
+There is uneven distribution of the death event in the dataset.
+
+Death Event Distribution:
+
+DEATH_EVENT
+0    203
+1     96
+There is uneven distribution of the death event in the dataset.
