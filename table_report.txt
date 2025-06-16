@@ -47,29 +47,12 @@ There are 37 outliers in the datasets when I use the threshold of 3.
 
 
 Death Event Distribution:
-DEATH_EVENT
-0    203
-1     96There is uneven distribution of the death event in the dataset.
 
-
-Death Event Distribution:
 DEATH_EVENT
 0    203
 1     96
 There is uneven distribution of the death event in the dataset.
 
-
-Death Event Distribution:
-DEATH_EVENT
-0    203
-1     96
-There is uneven distribution of the death event in the dataset.
-
-
-Death Event Distribution:
-
-{death_event_distribution.to_string()}
-There is uneven distribution of the death event in the dataset.
 
 Death Event Distribution:
 
@@ -78,9 +61,74 @@ DEATH_EVENT
 1     96
 There is uneven distribution of the death event in the dataset.
 
+
 Death Event Distribution:
 
 DEATH_EVENT
 0    203
 1     96
 There is uneven distribution of the death event in the dataset.
+
+
+Duplicate Rows:
+There are no duplicate rows in the dataset.
+
+
+Outliers Report:
+There are 37 outliers in the datasets when I use the threshold of 3.
+
+
+Duplicate Rows:
+There are no duplicate rows in the dataset.
+
+
+Outliers Report:
+There are 37 outliers in the datasets when I use the threshold of 3.
+
+
+Chi-Square Results for Categorical Features:
+            Feature  Chi2 score      p_value
+            anaemia    0.746593 3.875569e-01
+           diabetes    0.000657 9.795537e-01
+high_blood_pressure    1.221539 2.690589e-01
+                sex    0.001956 9.647213e-01
+            smoking    0.032347 8.572686e-01
+        DEATH_EVENT  203.000000 4.625817e-46
+
+Visualizations of Categorical Features vs DEATH_EVENT saved in the 'plots' folder.
+
+
+Chi-Square Results for Categorical Features:
+            Feature  Chi2 score      p_value
+            anaemia    0.746593 3.875569e-01
+           diabetes    0.000657 9.795537e-01
+high_blood_pressure    1.221539 2.690589e-01
+                sex    0.001956 9.647213e-01
+            smoking    0.032347 8.572686e-01
+        DEATH_EVENT  203.000000 4.625817e-46
+
+Visualizations of Categorical Features vs DEATH_EVENT saved in the 'plots' folder.
+
+
+Chi-Square Results for Categorical Features:
+            Feature  Chi2 score      p_value
+            anaemia    0.746593 3.875569e-01
+           diabetes    0.000657 9.795537e-01
+high_blood_pressure    1.221539 2.690589e-01
+                sex    0.001956 9.647213e-01
+            smoking    0.032347 8.572686e-01
+        DEATH_EVENT  203.000000 4.625817e-46
+
+Visualizations of Categorical Features vs DEATH_EVENT saved in the 'plots' folder.
+
+
+Chi-Square Results for Categorical Features:
+            Feature  Chi2 score      p_value
+            anaemia    0.746593 3.875569e-01
+           diabetes    0.000657 9.795537e-01
+high_blood_pressure    1.221539 2.690589e-01
+                sex    0.001956 9.647213e-01
+            smoking    0.032347 8.572686e-01
+        DEATH_EVENT  203.000000 4.625817e-46
+
+Visualizations of Categorical Features vs DEATH_EVENT saved in the 'plots' folder.
