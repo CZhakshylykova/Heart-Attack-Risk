@@ -1,63 +1,83 @@
-# Heart Failure Prediction Project
-## Overview 📊
-This project focuses on predicting heart failure outcomes using a dataset of clinical features. The dataset contains information about patients, including numerical and categorical features, and the target variable `DEATH_EVENT` (1: deceased, 0: alive). The project involves exploratory data analysis (EDA), data preprocessing, and training machine learning models to predict the target variable.
 
-## Steps in the Project 🛠️
+# Heart Failure Prediction 
+This project leverages machine learning to predict heart failure outcomes and provides model explainability using SHAP (SHapley Additive exPlanations). The workflow includes exploratory data analysis (EDA), data preprocessing, model training, and interpretable machine learning insights.
 
-### 1. Exploratory Data Analysis (EDA) 🔍
-- **Data Exploration**: Examined dataset structure, column descriptions, and missing values.
-- **Outlier Detection**: Identified and removed outliers using the IQR method.
-- **Univariate Analysis**: Visualized distributions of numerical and categorical features.
-- **Bivariate Analysis**: Analyzed relationships between features and the target variable.
-- **Correlation Analysis**: Generated a heatmap to identify correlations between numerical features.
+---
 
-### 2. Data Preprocessing 🧹
-- Converted binary columns to categorical data types.
-- Scaled numerical features using `StandardScaler` and `RobustScaler`.
-- Encoded categorical features using `LabelEncoder` and `OneHotEncoder`.
+## Project Structure
 
-### 3. Machine Learning Models 🤖
-#### Non-Tree-Based Models
-- **Logistic Regression**: Evaluated using stratified k-fold cross-validation.
-- **Naive Bayes**: Applied Gaussian Naive Bayes for classification.
-- **Support Vector Machines (SVM)**: Tested with linear, sigmoid, RBF, and polynomial kernels.
-- **K-Nearest Neighbors (KNN)**: Used KNN with a specified number of neighbors.
+- **`project_EDA.ipynb`** – Exploratory Data Analysis & visualization.
+- **`project_model.ipynb`** – Model training, evaluation, and SHAP explainability.
+- **`README.md`** – Project overview and instructions.
 
-#### Tree-Based Models 🌳
-- **Decision Tree Classifier**: Trained using entropy as the splitting criterion.
-- **Random Forest Classifier**: Evaluated feature importance and performance.
-- **XGBoost Classifier**: Applied gradient boosting for classification.
+---
 
-### 4. Feature Selection ✂️
-- Used Recursive Feature Elimination (RFE) with Logistic Regression to select the top 5 features.
-- Evaluated model performance with selected features.
+## Dataset
 
-### 5. Model Evaluation 📈
-- Compared model performance using metrics like accuracy, ROC-AUC, and classification reports.
-- Addressed class imbalance and its impact on model performance.
+- **Source**: [Heart Failure Clinical Records Dataset (Kaggle)](https://www.kaggle.com/datasets/rithikkotha/heart-failure-clinical-records-dataset)
+- The dataset contains medical records of patients with heart failure, including features such as age, anaemia, ejection fraction, serum creatinine, and more.
 
-### 6. Reporting 📝
-- Generated a detailed report (`table_report.txt`) summarizing dataset characteristics, EDA findings, and model performance.
-- Visualized key results and saved plots in the `plots` folder.
+---
 
-## Key Findings 🔑
-- Class imbalance in the dataset affects model performance.
-- Some features, such as `ejection_fraction` and `serum_creatinine`, are more predictive of heart failure outcomes.
-- Tree-based models like Random Forest and XGBoost performed better than non-tree-based models.
+## Main Features
 
-## How to Run ▶️
-1. Install required libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, `xgboost`, `graphviz`.
-2. Place the dataset (`heart_failure.csv`) in the working directory.
-3. Run the Jupyter Notebook cells sequentially to reproduce the analysis and results.
+- Comprehensive data exploration and cleaning.
+- Handling class imbalance with SMOTE.
+- Predictive modeling using Random Forest and Logistic Regression.
+- Model evaluation with ROC-AUC and other metrics.
 
-## Folder Structure 📂
-- `plots/`: Contains visualizations generated during the analysis.
-- `table_report.txt`: Summary report of the dataset and findings.
 
-## Future Work 🚀
-- Address class imbalance using techniques like SMOTE or weighted loss functions.
-- Experiment with hyperparameter tuning for better model performance.
-- Explore deep learning models for improved predictions.
+---
 
-## Author ✍️
-This project was developed as part of a heart failure prediction analysis.
+## How to Run
+
+1. Clone or download this repository.
+2. Download the dataset from Kaggle and place `heart_failure_clinical_records_dataset.csv` in your working directory.
+3. Open `project_EDA.ipynb` and follow the cells for data analysis.
+4. Run `project_model.ipynb` for model building 
+
+---
+
+## Requirements
+
+- Python 3.x
+- `pandas`
+- `numpy`
+- `scikit-learn`
+- `matplotlib`, `seaborn`
+- `imbalanced-learn`
+- `shap`
+
+### Install dependencies:
+
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn shap
+```
+
+---
+
+## Acknowledgements
+
+- Dataset: [Heart Failure Clinical Records Dataset (Kaggle)](https://www.kaggle.com/datasets/rithikkotha/heart-failure-clinical-records-dataset)
+
+---
+
+## License
+
+This project is for educational and research purposes.
+
+---
+
+## Contributing
+
+Contributions are welcome! If you'd like to improve this project, feel free to fork the repository, make your changes, and submit a pull request. Please ensure your code follows the project's style guidelines and includes appropriate documentation.
+
+---
+
+## Contact
+
+For any questions or feedback, please reach out via zhakshylykova@gmail.com
+
+---
+
+Thank you for exploring this project! If you find it helpful, consider giving it a star on GitHub. 😊
