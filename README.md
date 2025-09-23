@@ -1,4 +1,4 @@
-![Heart Image](https://unsplash.com/de/fotos/rote-und-gelbe-vogelfigur-MEbT27ZrtdE)
+![Heart Image](kenny-eliason-MEbT27ZrtdE-unsplash.jpg)
 <sub>Photo by [Kenny Eliason](https://unsplash.com/de/@heyquilia)</sub>
 
 # Heart Attack Risk Prediction
