@@ -16,7 +16,7 @@ This repository contains a project aimed at predicting the risk of heart attacks
 4. [Results](#results)
 5. [How to Use](#how-to-use)
 6. [Contributing](#contributing)
-7. [License](#license)
+
 
 ---
 
